@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+
+body {
+	margin: 10px auto;
+	text-align: center;
+	width: 800px;
+	font-family: Arial, sans-serif;
+	background-color: gainsboro;
+	padding: 0;
+	border: 1px solid black;
+	border-radius: 27px;
+	box-shadow: 25px 25px 10px rgba(0, 0, 0, 0.2)
+   }
+
+   
+   h1 {
+	color: rgb(29, 26, 26);
+	width: 230px;
+	margin: 0 auto;
+	font-family: 'Patrick Hand', cursive;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid green;
+	font-weight: 100;
+	font-size: 40px;
+   }
+
+   p{
+	font-family: 'Patrick Hand', cursive;
+	width: 400px;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+  }
+   
+   form {
+	font-family: 'Patrick Hand', cursive;
+	max-width: 300px;
+	margin: 0 auto;
+	background-color: lightgray;
+	padding: 50px;
+	border: 1px solid green;
+	border-radius: 10px;
+	box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.2);
+   }
+
+   input[type="number"] {
+	font-family: 'Patrick Hand', cursive;
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+	border: none;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	font-size: 16px;
+	color: #555;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+   }
+   
+   select {
+	font-family: 'Patrick Hand', cursive;
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+	border: none;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	font-size: 16px;
+	color: #555;
+   }
+   
+   button {
+	font-family: 'Patrick Hand', cursive;
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: lightslategray;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+   }
+   
+   button:hover {
+	background-color: gray;
+   }
+   
+   .result {
+	font-family: 'Patrick Hand', cursive;
+	width: 320px;
+	margin: 0 auto;
+	margin-top: 15px;
+	font-size: 20px;
+	font-weight: 15px;
+	text-align: center;
+	margin-bottom: 28px;
+	border: 1px solid green;
+	border-radius: 5px;
+	box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.2)
+   }

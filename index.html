@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Unit Converter</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ <h1>Unit Converter</h1>
+ <p>I will help you, I know your small brain can't do this! smiley face</p>
+ <form>
+  <label>From:</label>
+  <input type="number" id="fromValue" placeholder="Type fast">
+  <select id="fromUnit">
+   <option value="meters">Meters (m)</option>
+   <option value="feet">Feet (ft)</option>
+   <option value="inches">Inches (in)</option>
+   <option value="centimeters">Centimeters (cm)</option>
+   <option value="kilometers">Kilometers (km)</option>
+   <option value="miles">Miles (mi)</option>
+  </select>
+  <label>To:</label>
+  <select id="toUnit">
+   <option value="meters">Meters (m)</option>
+   <option value="feet">Feet (ft)</option>
+   <option value="inches">Inches (in)</option>
+   <option value="centimeters">Centimeters (cm)</option>
+   <option value="kilometers">Kilometers (km)</option>
+   <option value="miles">Miles (mi)</option>
+  </select>
+  <button type="button" onclick="convert()">Convert</button>
+ </form>
+ <div class="result" id="result"></div>
+ <script src="script.js"></script>
+</body>
+</html>
